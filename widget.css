@@ -1,0 +1,34 @@
+#progressbar.ui-progressbar {
+  position: fixed;
+  background-color: #3f3f3f;
+  height: 100vh;
+  width: 100vw;
+  left: 0px;
+  top: 0px;
+  border: 0px;
+}
+#progressbar .ui-progressbar-value {
+  background-color: #D3002A;
+  border: 0px;
+}
+#progressbar .ui-progressbar-overlay {
+  background-color: #D3002A;
+  border: 0px;
+}
+#progressbar .progress {
+  font-family: 'Bebas Neue';
+  position: absolute;
+  width: 100%;
+  top: 5vh;
+  font-size: 80vh;
+  color: #FFFFFF;
+  z-index: 100;
+  text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+}
+#progressbar .progress-value {
+  text-align: center;
+}
+#progressbar .progress-goal {
+  text-align: right;
+  right: 2vw;
+}
