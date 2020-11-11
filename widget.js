@@ -37,6 +37,6 @@ $(function () {
     });
   }
 
-  setInterval(getLatestData, 60000);
+  setInterval(getLatestData, {{frequency}} * 1000);
   getLatestData();
 });
