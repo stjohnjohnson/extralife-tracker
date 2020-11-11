@@ -3,5 +3,35 @@
     "type": "number",
     "label": "Extra Life Account ID:",
     "value": 402370
+  },
+  "frequency": {
+    "type": "number",
+    "label": "Update Frequency (seconds)",
+    "value": 60
+  },
+  "fontName": {
+    "type": "googleFont",
+    "label": "Font Name",
+    "value": "Bebas Neue"
+  },
+  "fontSize": {
+    "type": "number",
+    "label": "Font Size Percent",
+    "value": 80
+  },
+  "fontColor": {
+    "type": "colorpicker",
+    "label": "Font color",
+    "value": "rgb(255, 255, 255)"
+  },
+  "backgroundColor": {
+    "type": "colorpicker",
+    "label": "Background color",
+    "value": "rgb(63, 63, 63)"
+  },
+  "barColor": {
+    "type": "colorpicker",
+    "label": "Progress Bar Color",
+    "value": "rgb(211, 0, 42)"
   }
 }
