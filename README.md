@@ -1,19 +1,26 @@
 # extralife-tracker
 
-An extra-life tracker for Stream Elements that his the Extra-Life API directly
+A set of widgets for Stream Elements to track Extra Life progress
 
-<img width="924" alt="Screen Shot 2020-11-06 at 1 24 18 PM" src="https://user-images.githubusercontent.com/622065/98416169-739caa00-2033-11eb-9e0c-95e25f94abff.png">
+## Widgets
+
+### Goal Progress Bar
+
+![goal progress bar example](/goal-progress/example.png)
+
+### Recent Donations
+
+![recent donations example](/recent-donations/example.png)
+
+## Installation
 
 Follow the steps of the [blog post](https://blog.streamelements.com/how-can-you-become-a-code-guru-87071f223e1b) or [GitHub page](https://github.com/StreamElements/widgets) to install it.
 
-## Todo
+## Testing
 
- - [X] Make the colors/font customizable
+There's a quick script `generate-example.py` that will flatten the files HTML you can test in your browser without having to use StreamElements UI.
 
-## Usage
-
-1. Add the custom html/js/css widget to your overlay.
-2. Fill in the html/js/css/fields from this repo.
-3. Add your participant ID to the fields.
-4. Adjust the colors/fonts to meet your needs.
-5. Adjust the size to fit your overlay.
+```bash
+$ ./generate-example.py goal-progress > example.html
+$ open example.html
+```

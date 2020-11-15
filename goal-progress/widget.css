@@ -1,4 +1,4 @@
-@import url("//fonts.googleapis.com/css?family={{fontName}}");
+@import url("https://fonts.googleapis.com/css?family={{fontName}}");
 
 #progressbar.ui-progressbar {
   position: fixed;

@@ -1,0 +1,62 @@
+{
+  "extraLifeID": {
+    "type": "number",
+    "label": "Extra Life Account ID:",
+    "value": 402370
+  },
+  "numberOfDonations": {
+    "type": "number",
+    "label": "Number of Donations to show",
+    "value": 5
+  },
+  "frequency": {
+    "type": "number",
+    "label": "Update Frequency (seconds)",
+    "value": 60
+  },
+  "fontName": {
+    "type": "googleFont",
+    "label": "Font Name",
+    "value": "Bebas Neue"
+  },
+  "fontColor": {
+    "type": "colorpicker",
+    "label": "Font color",
+    "value": "rgb(255, 255, 255)"
+  },
+  "backgroundColor": {
+    "type": "colorpicker",
+    "label": "Background color",
+    "value": "rgb(63, 63, 63)"
+  },
+  "amountFontSize": {
+    "type": "number",
+    "label": "Amount Font Size",
+    "value": 4
+  },
+  "amountFgColor": {
+    "type": "colorpicker",
+    "label": "Amount Font Color",
+    "value": "rgb(255, 255, 255)"
+  },
+  "amountBgColor": {
+    "type": "colorpicker",
+    "label": "Amount Font Background Color",
+    "value": "rgb(211, 0, 42)"
+  },
+  "nameFontSize": {
+    "type": "number",
+    "label": "Name Font Size",
+    "value": 2
+  },
+  "dateFontSize": {
+    "type": "number",
+    "label": "Date Font Size",
+    "value": 1
+  },
+  "messageFontSize": {
+    "type": "number",
+    "label": "Message Font Size",
+    "value": 2
+  }
+}
