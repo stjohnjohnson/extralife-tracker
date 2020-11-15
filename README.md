@@ -8,6 +8,10 @@ A set of widgets for Stream Elements to track Extra Life progress
 
 ![goal progress bar example](/goal-progress/example.png)
 
+### Recent Donations
+
+![recent donations example](/recent-donations/example.png)
+
 ## Installation
 
 Follow the steps of the [blog post](https://blog.streamelements.com/how-can-you-become-a-code-guru-87071f223e1b) or [GitHub page](https://github.com/StreamElements/widgets) to install it.

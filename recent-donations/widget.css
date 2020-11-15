@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family={{fontName}}");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+#donation-list {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+.donation {
+  display: flex;
+  width: 100vw;
+  margin-bottom: 1vh;
+  font-family: '{{fontName}}', sans-serif;
+  background-color: {{backgroundColor}};
+  color: {{fontColor}};
+}
+.donation:last-child {
+  margin-bottom: 0;
+}
+.donation .amount {
+  width: 20vw;
+  font-size: {{amountFontSize}}em;
+  justify-content: right;
+  text-align: right;
+  margin-right: 1vw;
+  background-color: {{amountBgColor}};
+  color: {{amountFgColor}};
+  padding-right: 1vw;
+}
+.donation .text {
+  display: flex;
+  max-width: 75vw;
+  flex-direction: column;
+}
+.donation .text .date {
+  font-size: {{dateFontSize}}em;
+}
+.donation .text .name {
+  padding-top: 1.5vh;
+  font-size: {{nameFontSize}}em;
+  text-align: left;
+  line-height: 1;
+}
+.donation .text .message {
+  font-size: {{messageFontSize}}em;
+  text-align: left;
+  font-style: italic;
+  line-height: 1;
+  padding-bottom: 10px;
+  padding-left: 5vw;
+  padding-top: 1vw;
+}
